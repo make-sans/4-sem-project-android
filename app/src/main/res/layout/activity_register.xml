@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".Register"
+    tools:deviceIds="wear">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Name"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Username"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Password"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:text="VerifyPassword"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editVerifyPassword"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>-->
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:text="Register"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_width="180dp"
+            android:layout_height="40dp" />
+
+
+
+    </LinearLayout>
+</android.support.wear.widget.BoxInsetLayout>
