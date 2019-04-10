@@ -22,7 +22,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
 
         buttonRegister = (Button) findViewById(R.id.buttonRegister);
 
-              editName =  (EditText) findViewById(R.id.editName);
+              editName =  (EditText)  findViewById(R.id.editName);
               editUsername = (EditText) findViewById(R.id.editUsername);
               editPassword = (EditText) findViewById(R.id.editPassword);
 
