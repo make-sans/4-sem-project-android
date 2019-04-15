@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
 
+
         buttonLogout = (Button) findViewById(R.id.buttonLogout);
         editName =  (EditText) findViewById(R.id.editName);
         editUsername = (EditText) findViewById(R.id.editUsername);
