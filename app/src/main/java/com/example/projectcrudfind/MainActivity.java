@@ -37,6 +37,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (authenticate() == true) {
             displayUserDetails();
         }
+        else {
+            startActivity(new Intent(MainActivity.this, Login.class));
+
+        }
     }
 
     private boolean authenticate(){
